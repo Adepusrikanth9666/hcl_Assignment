@@ -19,7 +19,7 @@ exports.create = (req, res) => {
     })
 }
 
-// fetching all the notes
+
 
 exports.findAll = (req, res) => {
   Employee.find()

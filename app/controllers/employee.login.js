@@ -29,5 +29,4 @@ exports.findAll = (req, res) => {
     })
 }
 
-// deleting a note
 

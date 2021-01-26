@@ -8,7 +8,7 @@ require('dotenv').config()
 const app = express();
 const port = 4000
 
-// console.log(process.env.MONGODB_CONNECTION_STRING)
+
 
 
 app.use(bodyParser.urlencoded({extended:true}))

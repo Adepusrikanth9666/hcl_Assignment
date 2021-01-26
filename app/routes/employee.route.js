@@ -3,10 +3,10 @@ module.exports = (app) => {
     const employee = require('../controllers/employee.controller')
     // create a new employee
     app.post('/employee', employee.create)
-    // fetching all the notes
+    // fetching 
     app.get('/employee', employee.findAll)
-    // deleting a note
+    // deleting 
     app.delete('/employee/:employeeId', employee.delete)
-    // updating a note
+    // updating 
     app.put('/employee/:employeeId', employee.update)
   }
